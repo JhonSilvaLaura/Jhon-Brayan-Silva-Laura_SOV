@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0%;
+    background-color: rgb(22, 104, 198);
+    transition: all background-color 0.3s;
+}
+.logo{
+    margin-left: 30px;
+}
+.encabezado a:hover{
+    background-color: rgb(0, 72, 154);
+}
+.sesiones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sesiones li{
+    margin-right: 50px;
+    margin-left: 60px;
+    list-style: none;
+}
+.sesiones a{
+    text-decoration: none;    
+    color: white;
+    font-size: 24px;
+    border-radius: 6px;
+}
+
+.portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),url("media1/noti.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.quienes-somos{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+}
+.quienes-somos h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.quienes-somos p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.fondo{
+    background-color: rgb(73, 99, 234);
+    border-radius: 7px;
+
+}
+.desarrollo-historico {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 40px;
+    margin-right: 60px;
+    padding-top: 20px;
+}
+.desarrollo-historico h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center center;
+    margin-bottom: 10px;
+}
+.desarrollo-historico p{
+    color: black;
+    font-size: 20px;
+
+}
+.desarrollo-historico img{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    image-resolution: 10px;
+    width: 500px;
+    height: 300px;
+    margin-left: 300px;
+    padding-bottom: 20px;
+}
+.boton{
+    width: 13%;
+    margin: 0 auto;   
+}
+.boton button{
+    width: 75px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(67, 67, 159);
+    transition: all background-color 0.3s;
+    color: white;
+    margin-bottom: 10px;
+}
+.boton button:hover{
+    background-color: rgb(18, 18, 171);
+}
+.mision-vision{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -150px;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.mision-vision h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+.mision-vision h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.mision-vision p{
+    font-size: 20px;
+}
+.mision{
+    width: 500px;
+    height: 300px;
+    margin-right: 200px;
+}
+.vision{
+    width: 500px;
+    height: 300px;
+}
+.enlace{
+    font-size: 20px;
+    color: rgb(48, 31, 177);
+    font-weight: bold;
+    margin-left: 490px;
+    margin-top: 30px;
+}
+.video-vg{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.video{
+    padding-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    border-top: 5px solid #ecf0f1;
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer .contactos {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.footer .social-icons {
+    margin-top: 20px;
+}
+
+.footer .social-icon {
+    color: #ecf0f1;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.footer .social-icon:hover {
+    color: #3498db;
+}
+
